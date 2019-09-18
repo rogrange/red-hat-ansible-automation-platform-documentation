@@ -1,0 +1,9 @@
+Procedure
+
+. Navigate to menu:Settings[Sources].
+. Click *Add a source*.
+. Provide a *Name* and click a *Type*, then click *Next*.
+. Enter configuration information:
+.. Provide the source *URL*, *User name* and *Secret Key*. Check *Verify SSL* to supply a *Certificate Authority*.
+. Click the application to connect your source to.
+. Review source details and click *Finish* when complete.
