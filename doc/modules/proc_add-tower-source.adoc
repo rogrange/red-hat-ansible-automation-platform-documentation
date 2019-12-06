@@ -1,9 +1,13 @@
-Procedure
+Procedure:
 
+. Click image:config-gear.png[*Settings*].
 . Navigate to menu:Settings[Sources].
 . Click *Add a source*.
-. Provide a *Name* and click a *Type*, then click *Next*.
-. Enter configuration information:
-.. Provide the source *URL*, *User name* and *Secret Key*. Check *Verify SSL* to supply a *Certificate Authority*.
-. Click the application to connect your source to.
+. Provide a *Name* and click *Next*.
+. Select *Catalog* as your application and then *Ansible Tower* as your source type. Click *Next*.
+. Input your *User name* and *Secret Key*.
+. Provide the Ansible Tower *Url*.
+.. [Optional] Toggle the *Verify SSL* switch to input a *Certificate Authority*. This option will authenticate against the Ansible Tower SSL certificate.
+.. [Optional] Toggle the *Use Platform Receptor and PKI(?) to input the *Receptor ID*.
+. Click *Next*
 . Review source details and click *Finish* when complete.
